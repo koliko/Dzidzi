@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyMusic">
+
+    <include layout="@layout/menu">
+
+    </include>
+
+
+    <TextView
+        android:id="@+id/textup"
+        style="@style/anyLinearLayout"
+        android:padding="2dp"
+        android:text="PLAY LIST" />
+
+    <LinearLayout
+        android:id="@+id/spnnerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textup"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+
+        <Spinner
+            android:id="@+id/songsReceive"
+            style="@style/anyLinearLayout"
+            android:textSize="30sp"
+            tools:text="time is money" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/albumIdentity"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/spnnerLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/currentPlayingTheme"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mymedialogo" />
+
+        <TextView
+            android:id="@+id/songTitleArtist"
+            style="@style/anyLinearLayout"
+
+            android:text=" now playing this song" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/nowPlayingButton"
+        style="@style/anyLinearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/showImage"
+            android:layout_width="206dp"
+            android:layout_height="155dp"
+            android:src="@drawable/images" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

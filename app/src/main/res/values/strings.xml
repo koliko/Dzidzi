@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dzidzi</string>
+
+    <!--this part is for the menu images-->
+    <string name="menu_my_media">My Music</string>
+    <string name="menu_media_library">Media Library</string>
+    <string name="menu_current_ht">Current Hit</string>
+    <string name="menu_my_home">Home</string>
+
+    <!--this part is for the check box plain text-->
+    <string name="hiphop">Hip Hop</string>
+    <string name="gospel">Gospel</string>
+    <string name="jazz">Jazz</string>
+    <string name="soul">Soul</string>
+    <string name="rnb">R n B</string>
+
+    <string name="playlist">Current play list</string>
+</resources>

@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--this part is for the image for the menu layout-->
+    <style name="imageViewLayout">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--this part is for the menu layout-->
+    <style name="menuViewLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--this part is for the menu text layout-->
+    <style name="menuTextLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--this part is for the Menu relative layout-->
+    <style name="menuRelativeView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--this part is for the check box view -->
+    <style name="homeCheckSelect">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!--this par is for the general text styling-->
+    <style name="generalTextLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--this is for main Relative layout-->
+    <style name="mainRelattiveView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--this part is for the sub Linear layout-->
+    <style name="subLinearView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--this part is for the Edit view -->
+    <style name="mainEditView">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">search song</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <!--this part is for the songList view-->
+    <style name="songList">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">18dp</item>
+    </style>
+
+    <!--this part is for the songList image view one-->
+    <style name="songListImageView1">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <!--this part is for the songList image view two -->
+    <style name="songListImageView2">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <!--this part is for the songList image view three-->
+    <style name="songListImageView3">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <!--this part is for the anyLinear layout -->
+    <style name="anyLinearLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--this part is for specific layout-->
+    <style name="specificLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+</resources>

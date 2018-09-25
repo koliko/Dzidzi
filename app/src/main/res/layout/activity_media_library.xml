@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaLibrary">
+
+
+    <LinearLayout
+        android:id="@+id/cloudTitleLayout"
+        style="@style/anyLinearLayout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/anyLinearLayout"
+            android:text="Sound in Cloud" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_below="@+id/cloudTitleLayout"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ListView
+            android:id="@+id/cloudList"
+            style="@style/anyLinearLayout">
+
+        </ListView>
+
+        <CheckBox
+            android:id="@+id/cloudCheck"
+            style="@style/anyLinearLayout" />
+
+    </LinearLayout>
+
+    <include layout="@layout/menu">
+
+    </include>
+
+</RelativeLayout>

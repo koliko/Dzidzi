@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_icons"
+    style="@style/menuRelativeView">
+
+    <LinearLayout
+        android:id="@+id/my_home_layout"
+        style="@style/menuViewLayout">
+
+        <ImageView
+            android:id="@+id/myhome"
+            style="@style/imageViewLayout"
+            android:src="@drawable/mymedialogo" />
+
+        <TextView
+            android:id="@+id/my_home_lable"
+            style="@style/menuTextLayout"
+            android:text="@string/menu_my_home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_music_layout"
+        style="@style/menuViewLayout"
+        android:layout_toRightOf="@+id/my_home_layout">
+
+        <ImageView
+            android:id="@+id/my_music"
+            style="@style/imageViewLayout"
+            android:src="@drawable/mymusic" />
+
+        <TextView
+            android:id="@+id/my_music_lable"
+            style="@style/menuTextLayout"
+            android:text="@string/menu_my_media" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/media_library_layout"
+        style="@style/menuViewLayout"
+        android:layout_toRightOf="@+id/my_music_layout">
+
+        <ImageView
+            android:id="@+id/media_library"
+            style="@style/imageViewLayout"
+            android:src="@drawable/mylibrary" />
+
+
+        <TextView
+            android:id="@+id/media_library_lable"
+            style="@style/menuTextLayout"
+            android:text="@string/menu_media_library" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/current_hit_layout"
+        style="@style/menuViewLayout"
+        android:layout_toRightOf="@+id/media_library_layout">
+
+        <ImageView
+            android:id="@+id/current_hit"
+            style="@style/imageViewLayout"
+            android:src="@drawable/hit" />
+
+        <TextView
+            android:id="@+id/current_hit_text"
+            style="@style/menuTextLayout"
+            android:text="@string/menu_current_ht" />
+
+    </LinearLayout>
+
+</RelativeLayout>

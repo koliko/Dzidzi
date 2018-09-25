@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mainRelattiveView"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_page"
+        style="@style/generalTextLayout"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="@string/playlist" />
+
+
+    <LinearLayout
+        android:id="@+id/home_search_box"
+        style="@style/subLinearView"
+        android:layout_below="@+id/title_page"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/search_box"
+            style="@style/mainEditView" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_banna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_search_box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="18dp">
+
+        <TextView
+
+            style="@style/generalTextLayout"
+            android:text="DZIDZI ONLINE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_view_layout"
+        style="@style/subLinearView"
+        android:layout_below="@+id/title_page"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ListView
+            android:id="@+id/current_list"
+            style="@style/anyLinearLayout"
+            android:layout_below="@+id/home_search_box"
+            android:layout_marginBottom="85dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+    <include layout="@layout/menu">
+
+    </include>
+
+</RelativeLayout>

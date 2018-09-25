@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/songList">
+
+
+    <ImageView
+        android:id="@+id/song_theme"
+        style="@style/songListImageView1"
+        tools:src="@drawable/songtheme" />
+
+    <LinearLayout style="@style/specificLayout">
+
+
+        <TextView
+            android:id="@+id/song_title"
+            style="@style/anyLinearLayout"
+            tools:text="Hillsong" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            style="@style/anyLinearLayout"
+            tools:text="Hillsong unlimited" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/anyLinearLayout"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/song_download"
+            style="@style/songListImageView3"
+            tools:src="@drawable/download" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cloud_song"
+        style="@style/songListImageView2"
+        tools:src="@drawable/clouddown" />
+
+</LinearLayout>
